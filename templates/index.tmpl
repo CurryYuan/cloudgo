@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" href="http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif" type="image/x-icon">
+    <meta charset="utf-8">
+    <title>Hello world</title>
+</head>
+
+<body>
+    <div id="image">
+        <img src="img.jpg" height="100%" width="100%" />
+    </div>
+
+    <div>
+        <p class="name">Welcome, {{.Name}}</p>
+        <p class="content">Now is {{.formatTime}}</p>
+    </div>
+
+    <div id="the_form">
+        <form method="post" action="/">
+            <p>Username:</p>
+            <input type="text" name="username"><br />
+            <p>Password:</p>
+            <input type="password" name="password"><br />
+            <input type="submit" value="登录" id="submit">
+        </form>
+    </div>
+</body>
+
+</html>

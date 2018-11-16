@@ -20,5 +20,12 @@ a
 }
 body
 {
-  background-image: url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+    margin: auto;
+    text-align: center;
+}
+#image
+{
+    width: 500px;;
+    height: 400px;
+    margin: auto;
 }
