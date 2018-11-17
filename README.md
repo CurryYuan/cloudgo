@@ -16,4 +16,5 @@ Martini是一个强大为了编写模块化Web应用而生的GO语言框架.
  一个简单的go服务器应用，可以进行路由和返回静态网页
 ## 运行
 >go run main.go -p 8080
-
+## 详细信息见博客
+https://blog.csdn.net/happy990/article/details/84181305
